@@ -1,0 +1,140 @@
+.pop_up {  
+    position: fixed;  
+    width: 100%;  
+    height: 100%;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    margin: auto;  
+    background-color: rgba(0,0,0, 0.6);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+  }  
+  .pop_up_close {  
+    height: 45%;
+    width: 35%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
+
+  .pop_up_inner {
+    height: 98%;
+    width: 98%;
+    margin: auto;  
+    border-radius: 20px;  
+    background: white;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  } 
+
+.new_post_form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pop_up_right textarea{
+  width: 90%;
+  min-height: 70%;
+  border:none;
+  height: 60%;
+  padding-left: 20px;
+  opacity: 0.6;
+  margin-top: 30px;
+  vertical-align: baseline;
+}
+
+.pop_up_inner img {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+}
+
+.pop_up_container {
+  display:flex;
+  height: 70%;
+  width: 90%;
+  border-bottom: 1px solid rgba(87, 87, 90,0.15);
+}
+
+.pop_up_left{
+  width: 20%;
+  height: 100%;
+  display: flex;
+}
+
+.pop_up_right{
+  width:80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.pop_up_footer{
+  height: 30%;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.pop_up_footer img{
+  margin: 0;
+  padding: 0;
+}
+
+
+.pop_up_footer_left {
+  height:100%;
+  width: 80%;
+  opacity: 0.43;
+  display: flex;
+  align-items: center;
+}
+
+.pop_up_footer_left img{
+  height:40px;
+  width: 40px;
+}
+.pop_up_footer_right {
+  height:100%;
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.img_upload>input {
+  display: none;
+}
+
+.pop_up_right img[src]{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  max-width: 200px;
+  max-height: 200px;  
+  display: block;
+}
+
+.pop_up_right img{
+  display: none;
+}
+
+.pop_up_close button{
+  border: none;
+  font-size: 25px;
+  background: none;
+  padding: 10px;
+  color: white;
+}

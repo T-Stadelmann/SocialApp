@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:12
+    ports:
+      - '5485:5432'
+    env_file:
+      - ./envs/dev.env
+    volumes:
+      - postgres:/var/lib/postgresql/data
+
+  backend:
+    image: backend
+    restart: always
+    env_file:
+      - ./envs/dev.env
+    command: bash -c "sh /scripts/dev.sh && /usr/sbin/sshd -D"
+    volumes:
+      - ./backend:/backend
+      - ./media-files:/media-files
+      - ./static-files:/static-files
+    ports:
+    - '8000:8000'
+
+volumes:
+  postgres:
+  media-files:
+  static-files:

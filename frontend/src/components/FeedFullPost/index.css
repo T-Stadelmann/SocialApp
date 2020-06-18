@@ -1,0 +1,230 @@
+.pop_up_full_post {  
+    position: fixed;  
+    width: 100%;  
+    height: 100%;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    margin: auto;  
+    background-color: rgba(0,0,0, 0.6);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+
+  }  
+  
+  .pop_up_full_post_close {  
+    height: 70%;
+    min-width: 30%;
+    max-width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
+  .pop_up_full_post_close button {
+    font-size: 30px;
+    color: white;
+    background: none;
+    border: none;
+  }
+
+  .pop_up_full_inner {
+    height: 97%;
+    width: 97%;
+    margin: auto;  
+    border-radius: 20px;  
+    background: white;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  } 
+  
+  .pop_up_full_container {
+    display:flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .pop_up_full_left{
+    max-width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .hide_me{
+    display: none;
+    width: 0%;
+  }
+
+
+  .pop_up_full_left img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding:0;
+    margin:0;
+  }
+  .pop_up_full_right_no_img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .pop_up_full_right{
+      width: 40%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      }
+  
+  .pop_up_full_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;    
+  }
+  .pop_up_full_header img {
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 100px;
+  }
+  .post_header_dots{
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  .post_pop_up_name {
+    padding: 10px;
+    padding-right: 100px;
+    margin-top: 30px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: Roboto;
+  }
+
+  .post_pop_up_name time{
+    font-size: 14px;
+    opacity: 0.43;
+  }
+
+  .post_pop_up_name img {
+    height: 18px;
+    width: 5px;
+    border: none;
+  }
+  
+.pop_up_post_full_content{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  font-size: 20px;
+  justify-content:  center;
+  font-family: Roboto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.post_edit_buttons{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pop_up_post_full_content textarea{
+  max-height: 90%;
+  max-width: 90%;
+}
+
+.post_edit_buttons button{
+  width: 150px;
+  height: 40px;
+  color: black;
+  background-color: rgb(225, 225, 230);
+  font-family: Roboto;
+  font-size: 18px;
+  border-radius: 20px;
+  margin: 10px;
+  border-bottom: 1px solid rgba(87, 87, 90,0.15);
+}
+
+.pop_up_full_footer_top {
+  height:15%;
+  width: 100%;
+  opacity: 0.43;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border-bottom: 2px solid rgba(87, 87, 90,0.15);
+  font-size: 16px;
+  font-family: Roboto;
+}
+.pop_up_full_footer_top p {
+  margin-right: 10%;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.pop_up_full_footer_bottom {
+  height:15%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.pop_up_full_footer_bottom img[src]{
+  margin: 0;
+  padding-left : 10px;
+  padding-right: 10px;
+  border: 0;
+  width: 25px;
+  height: 25px;  
+  display: block;
+  opacity: 0.43;
+}
+
+.pop_up_full_footer_bottom p{
+  margin: 0;
+  padding-left : 10px;
+  padding-right: 40px;
+  border: 0;
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+
+.pop_up_full_close button{
+  border: none;
+  font-size: 25px;
+  background: none;
+  padding: 10px;
+  color: white;
+}
+
+.pop_up_full_header_left{
+  display:flex;
+}

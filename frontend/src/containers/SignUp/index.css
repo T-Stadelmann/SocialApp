@@ -1,0 +1,8 @@
+  .motion_sign_up_right {
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    }

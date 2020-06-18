@@ -1,0 +1,13 @@
+.motion_logo{ 
+    width: 100%;
+    height: 41.9%;
+    display: flex;        
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.motion_logo img {
+    min-height: 10%;
+    min-width: 13.3;
+    height: 22.5%;
+}

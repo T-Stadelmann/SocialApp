@@ -1,0 +1,68 @@
+.delete_pop_up{
+  width: 100%;
+  height: 100%;
+}
+.delete_image{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.delete_image img{
+  width: 20px;
+  height: auto;
+  border-radius: 35px;
+  overflow: hidden;
+  padding: 30px;
+  background-color: rgba(87, 87, 90,0.15);
+}
+
+.delete_text{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delete_text p{
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+.delete_buttons{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.delete_buttons button{
+  height: 20%;
+  width: 25%;
+  font-family: Roboto;
+  font-size: 14px;
+  border-radius: 24px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0px 15px;
+
+}
+
+button[id=cancel_delete]{
+  background-color: white;
+  border: 1px solid rgba(87, 87, 90,0.15);
+  color: black;
+}
+
+button[id=confirm_delete]{
+  box-shadow: 0 10px 30px 0 var(--black-7);
+  background-image: linear-gradient(102deg, #c468ff 0%, #6e91f6);
+}
+
+.delete_pop_up_container{
+  width:100%;
+  height: 100%;
+
+}

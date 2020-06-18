@@ -1,0 +1,17 @@
+.verify_button {
+    height: 14%;
+    width: 31%;
+    display: flex;
+    align-items: flex-end;
+    }
+    
+.verify_button button{
+    font-size: 14px;
+    height: 55%;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px 0 var(--black-7);
+    background-image: linear-gradient(102deg, #c468ff 0%, #6e91f6);
+    color: white;
+        }
+    

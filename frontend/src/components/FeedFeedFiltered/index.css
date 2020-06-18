@@ -1,0 +1,155 @@
+.post_header img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+.post_images img {
+    max-height: 40%;
+    max-width: 45%;
+    width: auto;
+    height: auto;
+    padding:10px ;
+}
+
+.posts_like_feed {
+    height:100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.post_like_container{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.post_container{
+    background-color: white;
+    min-height: 25%;
+    width: 100%;
+    border: 1px solid rgba(87, 87, 90,0.15);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.post_header{
+    height:30%;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+.post_name{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    margin: 20px;
+}
+
+.post_name time{
+    font-size:12px;
+    opacity: 0.43;
+}
+.post_content{
+    height: 50%;
+    width: 90%;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    
+}
+.post_footer{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    font-family: Roboto;
+}
+
+.post_footer_left{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left:30px;
+}
+.post_footer_left p{
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.post_footer_left img{
+    height:20px;
+    width: 20px;
+    opacity: 0.5;
+}
+.post_footer_right{
+    min-height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right:30px;
+    font-family: Roboto;
+    font-size: 14px;
+    opacity: 0.43;
+}
+
+.post_images {
+    width: 90%;
+    min-height:1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.friend_empty {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 30%;
+    width: 70%;
+}
+.friend_empty p{
+    font-size: 20px;
+    font-family: Roboto;
+    
+}
+.friend_empty button{
+    font-size: 18px;
+    height: 30%;
+    width: 50%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px 0 var(--black-7);
+    background-image: linear-gradient(102deg, #c468ff 0%, #6e91f6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+    
+.friend_empty a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}    

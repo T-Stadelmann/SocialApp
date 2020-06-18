@@ -1,0 +1,17 @@
+name: backend
+
+dependencies:
+  - python==3.7
+  - psycopg2
+
+  - pip:
+    - django==3.0.3
+    - gunicorn
+    - djangorestframework==3.11.0
+    - djangorestframework_simplejwt==4.4.0
+    - Markdown==3.2.1
+    - coreapi==2.3.3
+    - pillow==7.0.0
+    - django-cors-headers
+    - django-extensions==2.2.5
+    - django-fullurl==1.0

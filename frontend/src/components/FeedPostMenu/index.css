@@ -1,0 +1,67 @@
+.feed_post_menu_container button{
+    color: black;
+    background-image: url('../../assets/images/dots.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 10px;
+    right: 20px;
+}
+
+.feed_post_menu{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 300px;
+    z-index: 2;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    top: 31px;
+    left: -40px;
+    right: 0;  
+    bottom: 0; 
+    position: absolute;
+    z-index: 100;
+    border-radius: 8px;
+}
+.feed_post_menu button {
+    background: none;
+    font-size: 18px;
+    font-family: Roboto;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    border: 0.5px solid rgba(87, 87, 90,0.15);
+    display: flex;
+    align-items: flex-start;
+    }
+
+.feed_post_menu_container{
+    height: 70%;
+    width: 100%;
+    position: relative;
+ 
+}
+
+.feed_post_menu img{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+    border-radius:0;
+}
+
+
+.feed_post_menu button:hover {
+    background: none;
+    font-size: 18px;
+    font-family: Roboto;
+    background-color:rgb(164, 164, 168);
+    height: 50px;
+    width: 200px;
+    border: 0.5px solid rgba(87, 87, 90,0.15);
+    display: flex;
+    align-items: flex-start;
+    }

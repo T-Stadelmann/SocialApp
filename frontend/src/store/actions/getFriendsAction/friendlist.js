@@ -1,0 +1,15 @@
+const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium ante semper, lacinia urna posuere, viverra velit";
+
+
+const friendlist = [
+    {id: 116, email: "nico.gorbach@gmail.cim", first_name: "Some", last_name: "Name", username: "nico.gorbach@gmail.cim", location: "blah,Switzerland", about_me: text, things_user_likes: ["fishing","dancing","sharl","potatoes"], avatar: "null", logged_in_user_is_following: true, logged_in_user_is_friends: true},
+    {id: 21, email: "newMail@bluewin.ch", first_name: "Other", last_name: "Name", username: "newMail@bluewin.ch", location: "blah,Switzerland", about_me: text, things_user_likes: ["fishing","dancing","sharl","potatoes","things","other stuff"], avatar: "null", logged_in_user_is_following: true, logged_in_user_is_friends: false},
+    {id: 7, email: "richard@email.com", first_name: "Richard", last_name: "Gere", username: "richard", location: "blah,Switzerland", about_me: text, things_user_likes: ["fishing","dancing","sharl","potatoes","things","other stuff"], avatar: "null", logged_in_user_is_following: true, logged_in_user_is_friends: false},
+    {id: 8, email: "maurice@gmail.com", first_name: "Maurice", last_name: "Smith", username: "maurice", location: "blah,Switzerland", about_me: text, things_user_likes: ["fishing","dancing","sharl","potatoes"], avatar: "null", logged_in_user_is_following: false, logged_in_user_is_friends: true},
+    {id: 9, email: "linus@email.com", first_name: "Linus", last_name: "Johnson", username: "linus", location: "blah,Switzerland", about_me: text, things_user_likes: ["fishing","dancing","sharl","potatoes"], avatar: "null", logged_in_user_is_following: false, logged_in_user_is_friends: true},
+    {id: 28, email: "fewfwfwe@sdcsdcd.de", first_name: "Wayne", last_name: "Brain", username: "Wayne", location: "blah,Switzerland", about_me: text, things_user_likes: ["fishing","dancing","sharl","potatoes"], avatar: "null", logged_in_user_is_following: true, logged_in_user_is_friends: false},
+    {id: 11, email: "jim@email.com", first_name: "Jim", last_name: "Williams", username: "jim", location: "blah,Switzerland", about_me: text, things_user_likes: ["fishing","dancing","sharl","potatoes"], avatar: "null", logged_in_user_is_following: true, logged_in_user_is_friends: false},
+    {id: 13, email: "laura@email.com", first_name: "Laura", last_name: "Miller", username: "laura", location: "blah,Switzerland", about_me: text, things_user_likes: ["fishing","dancing","sharl","potatoes"], avatar: "null", logged_in_user_is_following: false, logged_in_user_is_friends: true},
+    {id: 25, email: "test@derp.de", first_name: "fwefwef", last_name: "ewfewfew", username: "ewfwefwef", location: "blah,Switzerland", about_me: text, things_user_likes: ["fishing","dancing","sharl","potatoes"], avatar: "null", logged_in_user_is_following: false, logged_in_user_is_friends: true}
+]
+export default friendlist

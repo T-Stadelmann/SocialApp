@@ -1,0 +1,23 @@
+.app_store_buttons {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.app_store_buttons a{
+    width: 126px;
+    height: 40px;
+    filter: invert(100%);
+    border-radius: 100px;
+    border: solid 2px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.app_store_buttons img{
+    filter: invert(100%);
+}

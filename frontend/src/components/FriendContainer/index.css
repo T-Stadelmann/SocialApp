@@ -1,0 +1,162 @@
+.friend_container{
+    width: 25%;
+    height: 55%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(87, 87, 90,0.15);
+    margin: 20px;
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.friend_buttons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+}
+.friend_buttons button{
+    width: 120px;
+    height: 45px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(87, 87, 90,0.15);
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.friend_buttons img{
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+    filter: invert(1)
+}
+.friend_photo{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img[id=blank_avatar]{
+    filter: opacity(0.3);
+    background-image: linear-gradient(102deg, #c468ff 0%, #6e91f6);
+}
+
+.friend_photo img{
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 100px;
+}
+.friend_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Roboto;
+    height: 15;
+}
+
+.friend_name h1{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.friend_name p{
+    font-size: 14px;
+}
+
+.friend_text{
+    width: 80%;
+    height: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.friend_interests{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+}
+.friend_interests li{
+    list-style: none;
+    background-color: rgba(185, 185, 189, 0.15);
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+.friend_interests ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.already_friend_button{
+    font-size: 14px;
+    height: 20.4%;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px 0 var(--black-7);
+    background-image: linear-gradient(102deg, #c468ff 0%, #6e91f6);
+    text-decoration: none;
+        } 
+
+.already_friend_button button{
+    color: white;   
+}
+
+
+.already_follow_button{
+    background-image: linear-gradient(102deg, #c468ff 0%, #6e91f6);
+    text-decoration: none;
+    color: white;
+        }
+
+.not_friend_button{
+    font-size: 14px;
+    height: 20.4%;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px 0 var(--black-7);
+    text-decoration: none;
+        }
+
+.not_friend_button button{
+    color: black;
+}
+
+.not_friend_button{
+    font-size: 14px;
+    height: 20.4%;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px 0 var(--black-7);
+    text-decoration: none;
+        }
+
+.sent_friend_button{
+    font-size: 14px;
+    height: 20.4%;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px 0 var(--black-7);
+    text-decoration: none;
+    background-color: coral;
+        }

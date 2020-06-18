@@ -1,0 +1,90 @@
+.feed_body_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f9ff;
+}
+
+.feed_body{
+    width: 75%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feed_body_left{
+    width:44%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.feed_body_right{
+    width:48%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.feed_last_post{
+    width: 100%;
+}
+
+.individual_post{
+    background-color: white;
+    height: 60%;
+    width: 100%;
+    border: 1px solid rgba(87, 87, 90,0.15);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.feed_new_post {
+    background-color: white;
+    height: 20%;
+    width: 100%;
+    border: 1px solid rgba(87, 87, 90,0.15);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.feed_new_post img {
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+}
+
+.feed_new_post button {
+    border: none;
+    background: none;
+}
+.feed_new_post textarea{
+    width: 75%;
+    border: none;
+    height: 90%;
+    padding-left: 20px;
+    opacity: 0.6;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+textarea::placeholder {
+    transform: translateY(+40px);
+}
+
+.feed_new_post_form{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

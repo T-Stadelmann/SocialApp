@@ -1,0 +1,20 @@
+.friends_body_container{
+    height: 90vh;
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f9ff;
+}
+
+.friends_body{
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #f8f8f9ff;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}

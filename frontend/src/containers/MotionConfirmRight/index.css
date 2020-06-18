@@ -1,0 +1,13 @@
+.motion_confirm_right {
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    }
+
+ .dots {
+     font-size: 30px;
+     margin-top: 2%;
+ }   

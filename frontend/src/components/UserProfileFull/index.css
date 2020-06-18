@@ -1,0 +1,221 @@
+.pop_up_profile {  
+    position: fixed;  
+    width: 100%;  
+    height: 100vh;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+  }  
+  
+  .pop_up_profile_inner {
+    height: 35%;
+    width: 80%;
+    border: 1px solid rgba(87, 87, 90,0.15);
+    border-radius: 10px;  
+    margin-top: 10%;
+    background: white;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+  } 
+  
+  .pop_up_profile_feed{
+    min-height: 30%;
+    width: 80%;
+    border-radius: 10px;  
+    margin-top: 2%;
+    background: white;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f9ff;
+  }
+
+  .profile_inner_left{
+    width: 30%;
+    height: 100%;
+    border-right: 1.5px solid rgba(87, 87, 90,0.15);
+
+
+  }
+
+  .profile_inner_right{
+    width: 70%;
+    height: 100%;
+  }
+
+  .inner_right_top{
+    width:100%;
+    height: 60%;
+    display: flex;
+ }
+
+  .profile_footer{
+    width:100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-top: 1.5px solid rgba(87, 87, 90,0.15);
+  }
+  .profile_footer p{
+    font-size: 16px;
+    font-family: Roboto;
+    opacity: 0.7;
+    padding: 10px;
+  }
+  .profile_footer_container{
+    height: 100%;
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+  }
+  .profile_about{
+    font-family: Roboto;
+    font-size: 16px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  .profile_about_content{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .profile_about_content p{
+    padding: 10px;
+  }
+
+
+  .profile_about_phone p{
+    padding: 10px;
+  }
+  .profile_email{
+    width: 45%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+  }
+  .profile_phone{
+    width: 45%;
+    padding-left: 10px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .profile_things_liked{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px
+
+  }
+.profile_things_liked li{
+    list-style: none;
+    background-color: rgba(185, 185, 189, 0.15);
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+.profile_things_liked ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+  .profile_photo{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .profile_photo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+  }
+  .profile_name{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile_name h1{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.profile_name p{
+    font-size: 15px;
+}
+
+  .edit_profile{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edit_profile button{
+  font-family: Roboto;
+  font-size: 12px;
+  padding: 15px 30px;
+  border: 1px solid rgba(87, 87, 90,0.15);
+  background: none;
+  border-radius: 20px;
+}
+.pop_up_profile textarea{
+  width: 80%;
+  height: 60%;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 16px;
+  border: 1px solid rgba(87, 87, 90,0.15);
+  box-shadow: none;
+}
+
+.user_profile .post_container{
+  width: 48%;
+}
+.user_profile .posts{
+  display: flex;
+  justify-content: space-between;
+}

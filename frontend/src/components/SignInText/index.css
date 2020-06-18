@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+
+.sign_in_text{
+    width: 14.9%;
+    height: 22%;
+    display: flex;
+    align-items: flex-end;
+    } 
+    
+.sign_in_text p{
+    font-size: 40px;
+    color: black;
+    font-weight: 400;
+    white-space: nowrap;    
+    font-family: 'Roboto';
+
+}
